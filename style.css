@@ -52,15 +52,3 @@ font-size: 20px;
 border: none;
 cursor: pointer;
 }
-
-.card-body h4{
-    font-size: 30px;
-    font-weight: bold;
-    color: tomato;
-}
-
-.card-body h5{
-    font-size: 25px;
-    font-weight: bold;
-    color:rgb(105, 71, 255);
-}

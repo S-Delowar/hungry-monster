@@ -52,13 +52,18 @@ const getMealDetails = (id) =>{
             `<div style="width: 23rem; height:300px">
                 <img style="width: 400px; height:300px; border-radius:"10px"; margin-top:50px" src="${mealImg}" alt="Card image cap">
                 <div class="card-body" style="width: 400px;">
-                    <h2 class="card-title">${element.strMeal}</h2><br>
-                    <h5>Ingredient</h5>
-                    <h6 class="card-text">-${element.strIngredient1}</h6>, <h6 class="card-text">${element.strIngredient2}</h6><br>
-                    <h6 class="card-text">-${element.strIngredient3}</h6>, <h6 class="card-text">${element.strIngredient4}</h6> <br>
-                    <h6 class="card-text">-${element.strIngredient5}</h6>, <h6 class="card-text">${element.strIngredient6}</h6><br>
-                    <h6 class="card-text">-${element.strIngredient7}</h6>, <h6 class="card-text">${element.strIngredient8}</h6><br>
-                    <h6 class="card-text">-${element.strIngredient9}</h6>, <h6 class="card-text">${element.strIngredient10}</h6><br>
+                    <h2 class="card-title" style=" color: tomato">${element.strMeal}</h2><br>
+                    <h5>Ingredients:</h5>
+                    <p class="card-text">${element.strIngredient1}</p>
+                    <p class="card-text">${element.strIngredient2}</p>
+                    <p class="card-text">${element.strIngredient3}</p>
+                    <p class="card-text">${element.strIngredient4}</p>
+                    <p class="card-text">${element.strIngredient5}</p>
+                    <p class="card-text">${element.strIngredient6}</p>
+                    <p class="card-text">${element.strIngredient7}</p>
+                    <p class="card-text">${element.strIngredient8}</p>
+                    <p class="card-text">${element.strIngredient9}</p>
+                    <p class="card-text">${element.strIngredient10}</p>
                     <button class="btn btn-dark" onclick="goBack()" id="back-search"><-Go Back
                     </button>
                 <div>
